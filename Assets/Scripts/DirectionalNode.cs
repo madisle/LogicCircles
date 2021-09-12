@@ -14,7 +14,7 @@ public class DirectionalNode : MonoBehaviour
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-        SwitchSprite();
+        switchsprite();
     }
 
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class DirectionalNode : MonoBehaviour
         
     }
 
-    void SwitchSprite()
+    void switchsprite()
     {
         if(current == "left")
         {
